@@ -6,7 +6,7 @@
 
 //#import "NSObject.h"
 
-#import "NTSimpleTimerProtocol-Protocol.h"
+#import "NTSimpleTimerProtocol.h"
 
 @class NSArray, NSLock, NSMutableDictionary, NTFileDesc, NTSimpleTimer, NTThreadWorkerController;
 

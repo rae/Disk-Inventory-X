@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017BD6B81C4014FA00A6E48C /* CocoaTechFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017BD6B71C4014FA00A6E48C /* CocoaTechFoundation.framework */; };
 		8D15AC290486D014006FF6A4 /* Disk Inventory X_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* Disk Inventory X_Prefix.pch */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
@@ -43,7 +44,6 @@
 		FC37DADC075B407B00209C78 /* PrefsPageBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37DADA075B407B00209C78 /* PrefsPageBase.m */; };
 		FC3FFAD9071074ED004BEC56 /* NTFileDesc-AccessExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FFAD7071074ED004BEC56 /* NTFileDesc-AccessExtensions.h */; };
 		FC3FFADA071074ED004BEC56 /* NTFileDesc-AccessExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FFAD8071074ED004BEC56 /* NTFileDesc-AccessExtensions.m */; };
-		FC528433075FD35200374589 /* CocoaTechFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570184070602110032DFE9 /* CocoaTechFoundation.framework */; };
 		FC528AC7076079B500374589 /* LoadingPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC528AC5076079B500374589 /* LoadingPanelController.h */; };
 		FC528AC8076079B500374589 /* LoadingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC528AC6076079B500374589 /* LoadingPanelController.m */; };
 		FC528C0F0760958C00374589 /* TreeMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC528C0E0760958C00374589 /* TreeMapView.framework */; };
@@ -54,7 +54,6 @@
 		FC5700F3070601AE0032DFE9 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5700F0070601AE0032DFE9 /* OmniBase.framework */; };
 		FC5700F4070601AE0032DFE9 /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */; };
 		FC570187070602110032DFE9 /* CocoaTechBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570183070602110032DFE9 /* CocoaTechBase.framework */; };
-		FC570188070602110032DFE9 /* CocoaTechFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570184070602110032DFE9 /* CocoaTechFoundation.framework */; };
 		FC570189070602110032DFE9 /* CocoaTechID3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570185070602110032DFE9 /* CocoaTechID3.framework */; };
 		FC57018A070602110032DFE9 /* CocoaTechStrings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570186070602110032DFE9 /* CocoaTechStrings.framework */; };
 		FC5703A80706023D0032DFE9 /* CocoaTechBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570183070602110032DFE9 /* CocoaTechBase.framework */; };
@@ -158,7 +157,6 @@
 			files = (
 				FC528F5007609F0300374589 /* TreeMapView.framework in CopyFiles */,
 				FC5703A80706023D0032DFE9 /* CocoaTechBase.framework in CopyFiles */,
-				FC528433075FD35200374589 /* CocoaTechFoundation.framework in CopyFiles */,
 				FC5703AA0706023D0032DFE9 /* CocoaTechID3.framework in CopyFiles */,
 				FC5703AB0706023D0032DFE9 /* CocoaTechStrings.framework in CopyFiles */,
 				FC5703AC0706023D0032DFE9 /* OmniAppKit.framework in CopyFiles */,
@@ -179,6 +177,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		017BD6B71C4014FA00A6E48C /* CocoaTechFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechFoundation.framework; path = ../../../CocoaTech/CocoaTechFoundation.framework; sourceTree = "<group>"; };
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -229,7 +228,6 @@
 		FC5700F0070601AE0032DFE9 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = ../../../OmniFrameWorks/OmniBase.framework; sourceTree = SOURCE_ROOT; };
 		FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = ../../../OmniFrameWorks/OmniFoundation.framework; sourceTree = SOURCE_ROOT; };
 		FC570183070602110032DFE9 /* CocoaTechBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechBase.framework; path = ../../../CocoaTech/CocoaTechBase.framework; sourceTree = SOURCE_ROOT; };
-		FC570184070602110032DFE9 /* CocoaTechFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechFoundation.framework; path = ../../../CocoaTech/CocoaTechFoundation.framework; sourceTree = SOURCE_ROOT; };
 		FC570185070602110032DFE9 /* CocoaTechID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechID3.framework; path = ../../../CocoaTech/CocoaTechID3.framework; sourceTree = SOURCE_ROOT; };
 		FC570186070602110032DFE9 /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = ../../../CocoaTech/CocoaTechStrings.framework; sourceTree = SOURCE_ROOT; };
 		FC657546075F4D2E0056F438 /* Preferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Preferences.tiff; sourceTree = "<group>"; };
@@ -313,12 +311,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017BD6B81C4014FA00A6E48C /* CocoaTechFoundation.framework in Frameworks */,
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
 				FC5700F2070601AE0032DFE9 /* OmniAppKit.framework in Frameworks */,
 				FC5700F3070601AE0032DFE9 /* OmniBase.framework in Frameworks */,
 				FC5700F4070601AE0032DFE9 /* OmniFoundation.framework in Frameworks */,
 				FC570187070602110032DFE9 /* CocoaTechBase.framework in Frameworks */,
-				FC570188070602110032DFE9 /* CocoaTechFoundation.framework in Frameworks */,
 				FC570189070602110032DFE9 /* CocoaTechID3.framework in Frameworks */,
 				FC57018A070602110032DFE9 /* CocoaTechStrings.framework in Frameworks */,
 				FC528C0F0760958C00374589 /* TreeMapView.framework in Frameworks */,
@@ -436,9 +434,9 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				017BD6B71C4014FA00A6E48C /* CocoaTechFoundation.framework */,
 				FC528C0E0760958C00374589 /* TreeMapView.framework */,
 				FC570183070602110032DFE9 /* CocoaTechBase.framework */,
-				FC570184070602110032DFE9 /* CocoaTechFoundation.framework */,
 				FC570185070602110032DFE9 /* CocoaTechID3.framework */,
 				FC570186070602110032DFE9 /* CocoaTechStrings.framework */,
 				FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */,
@@ -981,6 +979,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1022,6 +1021,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../OmniFrameworks",
@@ -1059,6 +1059,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../OmniFrameworks",
 					"$(SRCROOT)/../../../CocoaTech",

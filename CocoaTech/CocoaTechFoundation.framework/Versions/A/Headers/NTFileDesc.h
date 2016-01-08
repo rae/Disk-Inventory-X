@@ -6,7 +6,7 @@
 
 //#import "NSObject.h"
 //
-//#import "NSCoding.h"
+//
 
 @class NSDictionary, NSRecursiveLock, NSString, NSURL, NTDate, NTFSRefObject, NTFileTypeIdentifier, NTIcon, NTVolume, NTVolumeMgrState;
 
